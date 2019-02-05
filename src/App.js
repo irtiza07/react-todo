@@ -57,6 +57,7 @@ class App extends Component {
                 <AddToDo addTodo={this.addTodo}></AddToDo>
                 <Todos todos={this.state.todos} toggleCheck={this.toggleCheck} deleteTodo={this.deleteTodo}></Todos>
               </React.Fragment>
+              
             )}>
             </Route>
             <Route path='/about' component={About}>
